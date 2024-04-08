@@ -1,0 +1,9 @@
+
+.carré{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color :blueviolet;
+    background-color: rgb(236, 222, 27);
+    text-align: center;
+}

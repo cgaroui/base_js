@@ -6,4 +6,10 @@
     color :blueviolet;
     background-color: rgb(236, 222, 27);
     text-align: center;
+    padding-left: 10px;
+    font-family: "Times New Roman";
+}
+
+#test{
+    text-align:center;
 }

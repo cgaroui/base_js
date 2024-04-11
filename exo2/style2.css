@@ -1,49 +1,61 @@
+
 .carrés{
   
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: center ;
     align-items: center;
-    
-    text-align: center;
 }
 
 .carré1{
     width: 200px;
     height: 200px;
-   background-color: rgb(182, 17, 6);
-   margin: 5px; 
+    background-color: rgb(182, 17, 6);
+    margin: 5px; 
 }
 
 
 .carré2{
     width: 200px;
     height: 200px;
-   background-color: rgb(23, 150, 6);
-   margin: 5px;
+    background-color: rgb(23, 150, 6);
+    margin: 5px;
 }
 
 
 .carré3{
     width: 200px;
     height: 200px;
-   background-color: rgb(4, 90, 71);
-   margin: 5px;
+    background-color: rgb(4, 90, 71);
+    margin: 5px;
 
 }
 
 .carré4{
     width: 200px;
     height: 200px;
-   background-color: rgb(167, 179, 12);
-   margin: 5px;
+    background-color: rgb(167, 179, 12);
+    margin: 5px;
 
 }
 
 .carré5{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
     width: 200px;
     height: 200px;
     background-color: #c9c6c6;
     margin-left: 45%;
-    margin-top: 5px;
+    margin-top: 5px; 
+} 
+
+.carré5 .msg {
+    font-family: monospace;
+    color: #ffffff;
 }

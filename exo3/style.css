@@ -1,4 +1,11 @@
 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .carres{
     display: flex;
     gap: 5px;
@@ -9,8 +16,17 @@
 
 
 .carre{
+
     width: 200px;
     height: 200px;
     background-color: #8dae87;
+    transition: all 1s;
+}
 
+
+
+/* class créé en css pour gerer la transformation des carrés */
+.rotation {
+    transform: rotate(360deg) scale(0.9);
+    background-color: #aa716c;
 }

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;  
+
+}
+
+
+.quote-card {
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    max-width: 500px;                    /*pour donner une largeur max à la card  */
+    
+    background-color: aliceblue;
+    position: relative;                 /* Permet de positionner le nom de l'auteur */
+    border-radius: 10px;
+    }
+
+
+.author {
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+#quoteContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+
+body{
+    background-color: #ccc;
+}
